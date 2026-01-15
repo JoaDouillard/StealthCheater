@@ -5,19 +5,22 @@ TagManager:
   serializedVersion: 3
   tags:
   - Teacher
+  - Student
+  - Board
+  - Window
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Student
+  - EmptyDesk
+  - DeskStudent
+  - LevelFloor
+  - Env
   - 
   - 
   - 

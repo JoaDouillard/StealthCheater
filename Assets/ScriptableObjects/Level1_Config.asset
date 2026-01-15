@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cb553d6782d86419a7e055d3ebd07e, type: 3}
+  m_Name: Level1_Config
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfiguration
+  levelName: Classroom 1
+  levelIndex: 0
+  description: Description du niveau
+  patrolZoneSize: {x: 15, y: 1, z: 10}
+  patrolZoneCenterOffset: {x: 0, y: 0, z: 0}
+  maxAttempts: 30
+  minDistanceFromCurrent: 2
+  interestPointSnapRadius: 2
+  boardTag: Board
+  windowTag: Window
+  gridWidth: 5
+  gridHeight: 3
+  cellSpacingX: 2.8
+  cellSpacingZ: 2.5
+  emptyDeskProbability: 20
+  deskOnlyProbability: 10
+  deskObstacleProbability: 30
+  deskStudentProbability: 40
+  minStudentsRequired: 1
+  deskOnlyPrefabs:
+  - {fileID: 1844930292423774, guid: 867e80a66e3c25d4183d0e6ad62a3f9c, type: 3}
+  deskObstaclePrefabs:
+  - {fileID: 1844930292423774, guid: d539338089b043c4aa80df602deb0fa6, type: 3}
+  - {fileID: 1844930292423774, guid: 9d28f6247dcbbb9449a39599cf252864, type: 3}
+  - {fileID: 1844930292423774, guid: 90a736acc1d19d44ab6b61189e8d1557, type: 3}
+  - {fileID: 1844930292423774, guid: e40441a01bb033e45bc68f5ee23acde5, type: 3}
+  - {fileID: 1844930292423774, guid: 874651530acea1349b7b1ff2887ac996, type: 3}
+  - {fileID: 1844930292423774, guid: ab1367936d170654ea9cc6ef6b2fbeb5, type: 3}
+  deskStudentPrefabs:
+  - {fileID: 1844930292423774, guid: 2a29084af3dc32c40a8688b836569f85, type: 3}
+  - {fileID: 1844930292423774, guid: c11894fe719a2974394f670b66555ce8, type: 3}
+  - {fileID: 1844930292423774, guid: 685d551eb4fa75847ba5400400499110, type: 3}
+  - {fileID: 1844930292423774, guid: 895807d55027c0146a79b3abfff9bcd8, type: 3}
+  randomNavMeshProbability: 70
+  boardProbability: 15
+  windowProbability: 15
+  walkSpeed: 1
+  minWaitTime: 4
+  maxWaitTime: 30
+  waitTimeBias: 0.5
+  fieldOfViewAngle: 70
+  zone1MaxDistance: 8
+  zone1DetectionTime: 3
+  zone2MaxDistance: 6
+  zone2DetectionTime: 1.5
+  zone3MaxDistance: 2
+  zone3DetectionTime: 0.5
+  crouchDistanceModifier: 0.75
+  hasSpecialBehavior: 1
+  specialBehaviorDescription: 

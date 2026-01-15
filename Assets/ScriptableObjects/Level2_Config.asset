@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cb553d6782d86419a7e055d3ebd07e, type: 3}
+  m_Name: Level2_Config
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfiguration
+  levelName: Classroom 1
+  levelIndex: 0
+  description: Description du niveau
+  patrolZoneSize: {x: 15, y: 1, z: 10}
+  patrolZoneCenterOffset: {x: 0, y: 0, z: 0}
+  maxAttempts: 30
+  minDistanceFromCurrent: 2
+  interestPointSnapRadius: 1.5
+  boardTag: Board
+  windowTag: Window
+  gridWidth: 5
+  gridHeight: 2
+  cellSpacingX: 3
+  cellSpacingZ: 3.5
+  emptyDeskProbability: 20
+  deskOnlyProbability: 10
+  deskObstacleProbability: 30
+  deskStudentProbability: 40
+  minStudentsRequired: 1
+  deskOnlyPrefabs:
+  - {fileID: 1429071196916812, guid: f7074b097bcc51749938b10b8259b63d, type: 3}
+  deskObstaclePrefabs:
+  - {fileID: 1429071196916812, guid: 42ce87a61983de1469d0bc58e1d49191, type: 3}
+  - {fileID: 1429071196916812, guid: 3dbf79b084ac9ac449d8b864bdd8deb2, type: 3}
+  - {fileID: 1429071196916812, guid: 9e31d94707745724fa9af66e5ee89133, type: 3}
+  - {fileID: 1429071196916812, guid: 2ca03e8223b435d47a7e033def65d11c, type: 3}
+  - {fileID: 1429071196916812, guid: 8481d2060fe3a114ba726287ac02b9a1, type: 3}
+  deskStudentPrefabs:
+  - {fileID: 1429071196916812, guid: f5e57a870b06cb145815d233016e8419, type: 3}
+  - {fileID: 1429071196916812, guid: 852a3ae8f4081ae4a9d0329b0d1d2f8c, type: 3}
+  - {fileID: 1429071196916812, guid: 10eb4e98bac10354e9b29ac4b7d28e23, type: 3}
+  - {fileID: 1429071196916812, guid: fd9b23b4b23520c4ea4d39317e13bb82, type: 3}
+  randomNavMeshProbability: 70
+  boardProbability: 15
+  windowProbability: 15
+  walkSpeed: 2
+  minWaitTime: 2
+  maxWaitTime: 5
+  waitTimeBias: 0.5
+  fieldOfViewAngle: 90
+  zone1MaxDistance: 8
+  zone1DetectionTime: 5
+  zone2MaxDistance: 6
+  zone2DetectionTime: 3
+  zone3MaxDistance: 2
+  zone3DetectionTime: 0
+  crouchDistanceModifier: 0.75
+  hasSpecialBehavior: 0
+  specialBehaviorDescription: 

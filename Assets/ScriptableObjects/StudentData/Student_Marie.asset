@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68663f5cb372bee4c96663bf572a6082, type: 3}
+  m_Name: Student_Marie
+  m_EditorClassIdentifier: Assembly-CSharp::StudentData
+  studentName: Marie
+  mathsSkill: 50
+  frenchSkill: 95
+  historySkill: 70
+  scienceSkill: 40
+  philosophySkill: 90
+  englishSkill: 15
+  minSkillCopyTime: 3
+  maxSkillCopyTime: 20
+  hintColor: {r: 1, g: 0, b: 0.79149246, a: 1}
+  studentIcon: {fileID: 0}
